@@ -1,13 +1,13 @@
 import './App.css';
-import {WeatherDisplay} from "./features/counter/WeatherDisplay";
 import {Provider} from "react-redux";
 import store from "./store/store"
+import {MainPage} from "./pages/main-page";
 
 function App() {
   return (
       <Provider store={store}>
         <div className="App">
-          <WeatherDisplay />
+          <MainPage />
         </div>
       </Provider>
   );
