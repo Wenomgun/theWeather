@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.countriesList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.countriesList-wrapper-search {
+  width: 300px;
+  padding: 8px 0;
+}
+
+.countriesList-info {
+  text-align: left;
+}
+
+.countriesList-item {
+  padding: 8px;
+}
+
+.countriesList-item:hover {
+  background-color: azure;
+  cursor: pointer;
+}
+
+.countriesList-item.selected {
+  background-color: orange;
+}
+
+.countriesList-wrapper-list {
+  max-width: 300px;
+  max-height: 100vh;
+  margin-bottom: 150px;
+  overflow: auto;
+  border: 1px solid rgba(140, 140, 140, 0.35)
 }

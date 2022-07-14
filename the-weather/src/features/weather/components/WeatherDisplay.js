@@ -1,5 +1,5 @@
 import {useDispatch, useSelector} from "react-redux";
-import {getWeatherData, selectWeatherData} from "./weatherSlice";
+import {getWeatherData, selectWeatherData} from "../store/weatherSlice";
 import {useEffect} from "react";
 
 export const WeatherDisplay = () => {
